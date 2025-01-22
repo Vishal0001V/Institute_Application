@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity //this is the entity class
+	//changes from of the Git
 public class StuApc {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
