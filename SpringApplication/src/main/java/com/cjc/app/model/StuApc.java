@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity //this is the entity class
 public class StuApc {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
